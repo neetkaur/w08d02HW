@@ -1,0 +1,23 @@
+{
+  "name": "w08d02hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neetkaur/w08d02HW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neetkaur/w08d02HW/issues"
+  },
+  "homepage": "https://github.com/neetkaur/w08d02HW#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
