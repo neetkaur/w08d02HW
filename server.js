@@ -10,6 +10,9 @@ app.get('/greeting/:name',(req,res)=>{
   res.send(`Wow! Hello there, ${req.params.name}`)
 })
 
+app.get('/tip/:total/:percentage',(req,res)=>{
+  res.send(`Your tip amount is ${req.params.total/100*req.params.percentage}`)
 
+})
 
 app.listen(PORT,()=>console.log("Listening @ 8080"))
